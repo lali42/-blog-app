@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #container {
   text-align: center;
 
@@ -24,4 +29,47 @@
 
 #container a {
   text-decoration: none;
+}
+
+ion-title {
+  text-align: center;
+  font-weight: 1000;
+  color: white;
+}
+
+ion-content {
+  --ion-background-color: #283747;
+}
+
+ion-header {
+  --ion-background-color: #17202A;
+}
+
+.container {
+  top: 70px;
+  text-align: center;
+
+}
+
+.container .card {
+  margin: 5%;
+}
+
+.container .card p {
+  color: white;
+  margin: 5%;
+}
+
+.container .card .button{
+  font-weight: 1000;
+  color: #283747;
+  --background: #D0D3D4;
+}
+
+.img{
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  position:fixed;
+  bottom: 0;
 }
